@@ -35,6 +35,7 @@ Your directory should look something like the following. You can form the split 
 Install the following (recommended to use a conda environment `conda create --name lichess_puzzle_elo python=3.10` then `conda activate lichess_puzzle_elo`):
 - pytorch (for linux its something like `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia` but it depends on your CUDA version; see: https://pytorch.org/get-started/locally/)
 - `pip3 install onnx onnx2torch chess pandas numpy zstandard`
+- prepare the data `python3 prepare_data.py`
 
 ## Training
 
