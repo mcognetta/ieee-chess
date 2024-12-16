@@ -1,6 +1,6 @@
 # The `bread emoji` team's submission to the IEEE BigData Cup 2024 Predicting Chess Puzzle Difficulty Challenge
 
-This is the implementation of our baseline solution to the challenge. Our solution won first prize, and the write up is included as a PDF in this repo.
+This is the implementation of our baseline solution to the challenge. Our solution won first prize, and the write up is included as [a PDF in this repo](https://github.com/mcognetta/ieee-chess/blob/master/ieee_bread_emoji_chess_paper.pdf).
 
 The competition website is here: https://knowledgepit.ai/predicting-chess-puzzle-difficulty/
 
