@@ -4,6 +4,8 @@ This is the implementation of our baseline solution to the challenge. Our soluti
 
 The competition website is here: https://knowledgepit.ai/predicting-chess-puzzle-difficulty/
 
+Note that this repo is just the training of our base models. The postprocessing rescaling described in our paper (to fit a model trained on the Lichess dataset to the competition dataset distribution) was implemented as a simple transformation mapping on the outputs of these models, and isn't included in this repo.
+
 # Instructions
 
 ## Directory setup
