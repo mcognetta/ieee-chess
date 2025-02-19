@@ -75,3 +75,12 @@ Below is an example invocation:
 ```
 python3 evaluate.py --model-path experiment_models/example_test/example_test.best.ckpt --verbose --device 0
 ```
+
+**Update (02/2025)**: We have provided an example checkpoint for an ensembled model (a `Maia 1300,1500,1700` embedding-ensemble) for you to use. It is located at `experimental_models/example_1300_1500_1700.ckpt`.
+
+You can evaluate it with:
+
+```
+python3 evaluate.py --model-path experiment_models/example_1300_1500_1700.ckpt --use-cleaned-datasets --ensemble-model
+48775.93362560524
+```
