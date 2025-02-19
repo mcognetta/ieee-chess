@@ -1,3 +1,11 @@
+# The `bread emoji` team's submission to the IEEE BigData Cup 2024 Predicting Chess Puzzle Difficulty Challenge
+
+This is the implementation of our baseline solution to the challenge. Our solution won first prize, and the write up is included as [a PDF in this repo](https://github.com/mcognetta/ieee-chess/blob/master/ieee_bread_emoji_chess_paper.pdf).
+
+The competition website is here: https://knowledgepit.ai/predicting-chess-puzzle-difficulty/
+
+Note that this repo is just the training of our base models. The postprocessing rescaling described in our paper (to fit a model trained on the Lichess dataset to the competition dataset distribution) was implemented as a simple transformation mapping on the outputs of these models, and isn't included in this repo.
+
 # Instructions
 
 ## Directory setup
@@ -29,6 +37,7 @@ Your directory should look something like the following. You can form the split 
 Install the following (recommended to use a conda environment `conda create --name lichess_puzzle_elo python=3.10` then `conda activate lichess_puzzle_elo`):
 - pytorch (for linux its something like `conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia` but it depends on your CUDA version; see: https://pytorch.org/get-started/locally/)
 - `pip3 install onnx onnx2torch chess pandas numpy zstandard`
+- prepare the data `python3 prepare_data.py`
 
 ## Training
 
