@@ -13,6 +13,8 @@ experiment_models/*
 
 *.ckpt
 
+!experiment_models/example_1300_1500_1700.ckpt
+
 nohup.out
 
 *.csv
