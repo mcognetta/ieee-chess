@@ -1,3 +1,5 @@
+# **NOTE**: This branch is an archive of the 2024 competition reference implementation. The 2025 (FedCSIS) competition repo is now in the master branch.
+
 # The `bread emoji` team's submission to the IEEE BigData Cup 2024 Predicting Chess Puzzle Difficulty Challenge
 
 This is the implementation of our baseline solution to the challenge. Our solution won first prize, and the write up is included as [a PDF in this repo](https://github.com/mcognetta/ieee-chess/blob/master/ieee_bread_emoji_chess_paper.pdf).
