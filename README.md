@@ -91,12 +91,12 @@ options:
                         this flag should not be set)
   ```
 
-We have provided an example checkpoint for a trained model (using `Maia 1100,1500,1900`) for you to use. It is located at `experimental_models/example_1100_1500_1900_model.ckpt`.
+We have provided an example checkpoint for a trained model (using just `Maia 1100`; due to the model sizes, we couldn't upload a larger model; we are investigating another way to do this) for you to use. It is located at `experimental_models/example_1100_model.ckpt`.
 
 You can evaluate it with:
 
 ```
-python3 evaluate.py --model-path experiment_models/example_1100_1500_1900_model.ckpt --use-cleaned-datasets --
+python3 evaluate.py --model-path experiment_models/example_1100_model.ckpt --use-cleaned-datasets --
 use-maia2-features --ensemble-model
-41881.40133132184
+44048.53617384024
 ```
