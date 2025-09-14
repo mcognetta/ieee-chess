@@ -6,7 +6,7 @@ The competition website is here: https://knowledgepit.ai/predicting-chess-puzzle
 
 Note that this repo is just the training of our base models. The postprocessing rescaling described in our paper (to fit a model trained on the Lichess dataset to the competition dataset distribution) was implemented as a simple transformation mapping on the outputs of these models, and isn't included in this repo.
 
-Our implementation to last year's competition can be found here: https://github.com/mcognetta/ieee-chess/tree/2024-iteration-archive
+Our implementation for last year's competition can be found here: https://github.com/mcognetta/ieee-chess/tree/2024-iteration-archive
 
 # Instructions
 
