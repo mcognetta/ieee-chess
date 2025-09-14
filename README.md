@@ -72,7 +72,7 @@ A new directory will appear during the training run:
 
 ## An Eval Script
 
-We also have a prepackaged evaluation script to help evaluate corpora:
+We also have a prepackaged evaluation script to help evaluate models:
 ```
 usage: evaluate.py [-h] --model-path MODEL_PATH [--evaluation-corpus EVALUATION_CORPUS] [--device DEVICE] [--verbose]
 
